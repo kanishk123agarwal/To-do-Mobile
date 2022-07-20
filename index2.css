@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 65%;
+    height: 10%;
+    margin: 100px auto;
+    margin-bottom: 35px;
+    position: relative;
+    
+}
+
+.left-main-container{
+    width: 25%;
+    height: 100%;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+#task{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#list{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.right-main-container{
+    width: 24%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 1px;
+}
+
+#AddList{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 35px;
+    opacity: 0.5;
+    padding-top: 20px;
+   
+}
+.card1{
+    margin-top: 5px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius:8px;
+    box-shadow: 5px 5px 8px grey;
+    margin-left: 300px;
+    float: left;
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 25px;
+    width: 90%;
+    text-align: left;
+    height: 15%;
+    color: darkred;
+    border-bottom: 1px solid black;
+    font-weight: 10px;
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    color: darkred;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight:bold ;
+    text-decoration: line-through;
+}
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 20px;
+}
+#check{
+    width:15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.card2{
+    margin-top: 5px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius:8px;
+    box-shadow: 5px 5px 8px grey;
+    margin-right: 50px;
+    margin-left: 100px;
+    float: left;
+}
+.card3{
+    margin-top: 5px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius:8px;
+    box-shadow: 5px 5px 8px grey;
+    margin-right: 250px;
+    float: right;
+}
+.blur{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    height: 25vh;
+    width: 27%;
+    border: 1.5px solid green;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+#add-new{
+    text-align: center;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.pop-uptext{
+    margin-top: 20px;
+    width: 80%;
+    height: 15%;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 4px;
+    border: 1.5px solid red;
+}
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    left: 130px;
+}
+
+@media(max-width:600px){
+
+    .main-container{
+        width: 85%;
+    }
+    
+    .left-main-container{
+        width: 75%;
+        margin-right: 50px;
+    }
+    #AddList{
+        display: none;
+    }
+
+    #circle{
+        right: 0;
+    }
+    
+    .div2 {
+        display: none;
+    }
+    .div3{
+        display:none;
+    }
+    .div1{
+        border: none;
+        color: grey;
+        font-size: 30px;
+        
+    }
+    .card1{
+        width: 90%;
+        height: 20vw;
+        margin-top:20px;
+        float: right;
+        margin-right: 30px;
+        
+    }
+    
+    .card2{
+        width: 90%;
+        height: 20vw;
+        margin-top:20px;
+        float: right;
+        margin-right: 30px;
+    }
+
+    .card3{
+        width: 90%;
+        height: 20vw;
+        margin-top:20px;
+        float: right;
+        margin-right: 30px;
+    }
+
+    .pop-up{
+        height: 48vw;
+        width: 80%;
+        left: 10%;
+    }
+
+    .pop-up-button{
+       
+        left: 100px;
+    }
+
+    #add-new{
+        font-size: 26px;
+    }
+}

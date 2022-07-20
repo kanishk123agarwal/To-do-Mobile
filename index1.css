@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-cont{
+    width: 30%;
+    height: 100%;
+    margin: 50px auto;
+    position: relative;
+}
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.back{
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top:0px;
+    right:40px;
+    padding-top: 50px;
+    opacity: 0.5;
+    font-size: 24px;
+    text-align: center;
+}
+.second-cont{
+    width: 90%;
+    height: 100%;
+    padding-top: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.card{
+    width: 20%;
+    height: 45vh;
+    border: 2px solid red;
+    margin-top: 1px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+}
+.div1{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: left;
+    padding: 5px;
+    font-size: 26px;
+    border-bottom: 1px solid red;
+    color: brown;
+    
+}
+.div2{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 80%;
+    height: 15%;
+    text-decoration: line-through;
+    font-size: 28px;
+    color: blue;
+    margin-top: 20px;
+}
+.div3{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 90%;
+    height: 15%;
+  text-align: left;
+  font-size: 20px;
+}
+#check{
+    width: 17px;
+    height: 17px;
+}
+.bottom-icon{
+    width: 98%;
+    height: 12%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+@media(max-width:600px){
+    .main-cont{
+        width: 95%;
+    
+    }
+    .back{
+        display: none;
+    }
+    .text{
+        width: 80%;
+        margin-left:70px ;        
+    }
+    .second-cont{
+        width: 90%;
+        position: absolute;
+        padding-top:5px ;
+        right: 80px;
+        margin-top: 0px;
+    }
+
+    .card{
+        width: 70%;
+        margin-top: 0px;
+        height: 80vw;
+    }
+}
